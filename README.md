@@ -1,4 +1,6 @@
 # README
+Project started September 2, 2018
+Due to past trying errors
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
