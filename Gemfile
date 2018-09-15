@@ -13,24 +13,20 @@ gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
-# Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff http://rails-i18n.org
-gem 'rails-i18n', '~> 5.1'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 4.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
 
-# Use ActiveStorage variant
-# gem 'mini_magick', '~> 4.8'
+# Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff http://rails-i18n.org
+gem 'rails-i18n', '~> 5.1'
+# i18n for Devise
+gem 'devise-i18n'
 
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+# Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…
+gem 'devise'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
@@ -51,7 +47,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   # Manage Procfile-based applications http://ddollar.github.com/foreman
-  gem 'foreman'
+  # gem 'foreman'
 end
 
 

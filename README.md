@@ -1,26 +1,6 @@
 # README
 Project started September 2, 2018
-Due to past trying errors
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Trying again this project due to past problems.
+Lessons learned:
+-Git hub for the life
+what in the world is miss typing Alt F4 on Ubuntu?
