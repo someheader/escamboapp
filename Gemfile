@@ -7,6 +7,8 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# jquery for rails why not?
+gem 'jquery-rails'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
@@ -30,6 +32,8 @@ gem 'devise'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+# Rails gem of the Bootstrap based admin theme SB Admin 2. http://dreamingechoes.github.io/boots…
+gem 'bootstrap_sb_admin_base_v2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -47,7 +51,8 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   # Manage Procfile-based applications http://ddollar.github.com/foreman
-  # gem 'foreman'
+  #
+  gem 'rails-erd'
 end
 
 
