@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'backoffice', to: 'backoffice/dashboard#index'
+
   namespace :site do
     get 'home', to:'home/index'
   end
