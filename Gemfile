@@ -26,7 +26,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'rails-i18n', '~> 5.1'
 # i18n for Devise
 gem 'devise-i18n'
-
+#Faker
+gem 'faker'
 #Notify JS
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 # Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…

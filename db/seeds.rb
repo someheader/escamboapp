@@ -6,7 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-puts "Cadastrando as CATEGORIAS..."
 categories = ["Animais e acessórios",
               "Esportes",
               "Para a sua casa",
@@ -21,5 +20,12 @@ categories = ["Animais e acessórios",
 categories.each do |category|
   Category.find_or_create_by(description: category)
 end
+puts "Categorias cadastradas com sucesso"
 
-puts "CATEGORIAS cadastradas com sucesso"
+# Cadastrando o administrador padrão
+
+Admin.create(email: "admin@admin.com",
+             password: "123456",
+             password_confirmation: "123456")
+
+puts "Administrador cadastrado com sucesso"
