@@ -26,18 +26,21 @@ gem 'jbuilder', '~> 2.5'
 gem 'rails-i18n', '~> 5.1'
 # i18n for Devise
 gem 'devise-i18n'
-#Faker
-gem 'faker'
-#Notify JS
-gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 # Flexible authentication solution for Rails with Warden. http://blog.plataformatec.com.br/tag/…
 gem 'devise'
-
+#Sweet Alert 2
+gem 'sweet-alert2-rails'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
-#Bootstrap
-gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
+source 'https://rails-assets.org' do
+  #Bootstrap
+  gem 'rails-assets-bootstrap'
+  #Notify JS
+  gem 'rails-assets-notifyjs'
+  #Sweet Alert 2
+  gem 'rails-assets-sweetalert2'
+end
 # Rails gem of the Bootstrap based admin theme SB Admin 2. http://dreamingechoes.github.io/boots…
 gem 'bootstrap_sb_admin_base_v2'
 
@@ -47,6 +50,8 @@ group :development, :test do
 end
 
 group :development do
+  #Faker
+  gem 'faker'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
